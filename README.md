@@ -6,7 +6,7 @@ This repository contains a clone of a provided Figma design. The project is a re
 
 ## 🚀 Tech Stack
 
-### 🧠 Frontend
+### 🧠 Frontend 
 - **TypeScript**
 - **React.js**
 - **Vite** (for fast development server and build)
