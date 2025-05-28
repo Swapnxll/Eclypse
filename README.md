@@ -41,7 +41,7 @@ npm run def
 - ✅ Clean and modular codebase using **TypeScript**
 - ✅ Fully functional integration between frontend and backend
 - ✅ Dummy data is served by the server (JSON-based)
-- ❌ **Assets (images/videos)** are not included due to GitHub's 50MB file size restriction
+- ❌ **Assets (images/videos)** are not included due to GitHub's file size restriction
 
 ---
 
