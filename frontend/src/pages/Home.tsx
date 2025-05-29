@@ -16,7 +16,7 @@ const Home: React.FC = () => {
 
    return (
     <>
-<div className="bg-black text-white min-h-screen">
+<div className="bg-black text-white min-h-screen w-full overflow-x-hidden">
   <Layout>
 
 <Navbar isDarkBackground={true} />
@@ -24,7 +24,9 @@ const Home: React.FC = () => {
       
       <div className="relative w-full">
         <div className="relative inline-block">
-          <h1 className="text-8xl font-primary">ECLIPSE</h1>
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-primary break-words">
+  ECLIPSE
+</h1>
           <span
             className="
               absolute top-0 right-0
