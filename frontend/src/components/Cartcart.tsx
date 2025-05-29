@@ -1,9 +1,6 @@
 import React from 'react'
 
-import video3 from '../assets/3rdvid.mp4'
-import img5 from '../assets/5thimg.jpg'
-import img6 from '../assets/6thimg.jpg'
-import img7 from '../assets/7th img.jpg'
+
 
 const Cartcart = () => {
   return (
@@ -14,7 +11,7 @@ const Cartcart = () => {
   <div className="sm:w-1/2 w-full rounded overflow-hidden flex">
     <div className="aspect-[7/9] w-full h-full">
       <video
-        src={video3}
+        src='https://res.cloudinary.com/do48h78id/video/upload/v1748506110/3rdvid_mokddp.mp4'
         autoPlay
         muted
         loop
@@ -33,7 +30,7 @@ const Cartcart = () => {
 
     {/* Image grid */}
     <div className="flex gap-4 px-4">
-      {[img5, img6, img7].map((img, idx) => (
+      {['https://res.cloudinary.com/do48h78id/image/upload/v1748506116/5thimg_s697fx.jpg', 'https://res.cloudinary.com/do48h78id/image/upload/v1748506114/6thimg_jffjbk.jpg', 'https://res.cloudinary.com/do48h78id/image/upload/v1748506115/7th_img_hdxjdr.jpg'].map((img, idx) => (
         <div
           key={idx}
           className="w-1/3 aspect-square rounded overflow-hidden shadow-md"

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
-import video1 from '../assets/4937474-uhd_4096_2160_25fps.mp4'
+
 import Section from '../components/Section';
 import Cartcart from '../components/Cartcart';
 import Footer from '../components/Footer';
@@ -45,14 +45,15 @@ const Home: React.FC = () => {
       </div>
 
       <div className="my-5">
-        <video
-          src={video1}
-          autoPlay
-          muted
-          loop
-          className="w-full aspect-[2.53] rounded-[5px] object-cover"
-        />
-      </div>
+  <video
+    src="https://res.cloudinary.com/do48h78id/video/upload/v1748502963/4937474-uhd_4096_2160_25fps_zdfnju.mov"
+    autoPlay
+    muted
+    loop
+    className="w-full aspect-square sm:aspect-[2.53]  object-cover"
+  />
+</div>
+
 
       <div className="my-25 text-3xl font-home">
         Rooted in a philosophy of quiet luxury, our<br />

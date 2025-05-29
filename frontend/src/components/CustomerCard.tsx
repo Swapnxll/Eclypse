@@ -1,6 +1,5 @@
 import React from 'react'
-import cus1 from '../assets/customer1.jpg'
-import cus2 from '../assets/customer2.jpg'
+
 const CustomerCard = () => {
   return (
     <>
@@ -27,7 +26,7 @@ const CustomerCard = () => {
   {/* Customer image */}
   <div className="w-14 h-14 rounded-full overflow-hidden">
     <img
-      src={cus1}
+      src='https://res.cloudinary.com/do48h78id/image/upload/v1748506120/customer1_tdjgly.jpg'
       alt="Customer 1"
       className="w-full h-full object-cover object-top object-center"
     />
@@ -35,7 +34,7 @@ const CustomerCard = () => {
   {/* Smaller image below */}
   <div className="w-8 h-8 rounded-full overflow-hidden">
     <img
-      src={cus2}
+      src='https://res.cloudinary.com/do48h78id/image/upload/v1748506118/customer2_ajrqac.jpg'
       alt="Customer 2"
       className="w-full h-full object-cover object-top object-center"
     />

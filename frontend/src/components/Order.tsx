@@ -19,7 +19,7 @@ interface OrderData {
 const OrderSummary = () => {
   const [order, setOrder] = useState<OrderData | null>(null);
     useEffect(() => {
-    axios.get<OrderData>('http://localhost:5000/order')
+    axios.get<OrderData>(`${import.meta.env.VITE_SERVER}`)
       .then(response => setOrder(response.data))
       .catch(error => console.error('Error fetching order:', error));
   }, []);

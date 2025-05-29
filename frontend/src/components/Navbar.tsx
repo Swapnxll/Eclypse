@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/logo.jpg';
 import { useNavigate } from 'react-router-dom';
 
 type NavbarProps = {
@@ -31,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkBackground = true }) => {
           sm:rounded-[2px] sm:w-[48px] sm:h-[45px]
         `}
       >
-        <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+        <img src='https://res.cloudinary.com/do48h78id/image/upload/v1748506119/logo_cgg3wo.jpg' alt="Logo" className="w-full h-full object-contain" />
       </div>
 
       {/* Nav links */}
